@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Únete a Nuestro Equipo</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo PAWTS" class="logo">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#pawts">PAWTS</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#noticias">Noticias</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <h1>Únete a Nuestro Equipo</h1>
+        <p>¿Eres un amante de las mascotas y te apasiona la tecnología? ¡Nos encantaría conocerte!</p>
+        <p>En PAWTS estamos creciendo y siempre buscamos personas talentosas para unirse a nuestro equipo...</p>
+
+        <form class="formulario">
+            <label for="nombre">Nombre Completo: *</label> <br>
+            <input type="text" id="nombre" placeholder="Nombre y apellidos" required>
+            
+            <label for="correo">Correo Electrónico: *</label> <br>
+            <input type="email" id="correo" placeholder="Recibe nuestras ofertas de empleo" required>
+
+            <label for="telefono">Número de Teléfono: *</label> <br>
+            <input type="tel" id="telefono" placeholder="¡Te vamos a contactar!" required>
+
+            <label for="puesto">Puesto de trabajo: *</label> 
+            <select id="puesto" required>
+                <option value="" disabled selected>Posición a la que aplicas</option>
+                <option value="desarrollador">Desarrollador</option>
+                <option value="diseñador">Diseñador</option>
+                <option value="marketing">Marketing</option>
+            </select>
+
+            <label for="cv">Curriculum Vitae (CV) y/o portfolio: *</label>
+            <input type="file" id="cv" required>
+
+            <label for="carta">Carta de Presentación:</label>
+            <textarea id="carta" placeholder="Escribe tu carta aquí"></textarea>
+
+            <label for="experiencia">Experiencia Laboral:</label>
+            <textarea id="experiencia" placeholder="Describe tu experiencia laboral"></textarea>
+
+            <label for="comentarios">Comentarios Adicionales:</label>
+            <textarea id="comentarios" placeholder="Puedes añadir información adicional aquí"></textarea>
+
+            <div class="politica">
+                <input type="checkbox" id="politica" required>
+                <label for="politica">He leído y aceptado la política de privacidad de PAWTS.</label>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><img src="tiktok-icon.png" alt="TikTok"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <p>Copyright PAWTS. © Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+h1 {
+    color: #055d4c;
+    font-size: 2rem;
+}
+
+form.formulario {
+    background-color: #055d4c;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    display: grid;
+    gap: 1rem;
+}
+
+form.formulario label {
+    font-weight: bold;
+}
+
+form.formulario input, 
+form.formulario textarea, 
+form.formulario select {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.politica {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-enviar {
+    background-color: #e63275;
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #055d4c;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
