@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #006400;
+    text-align: center;
+}
+
+.highlight {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+main.form-container {
+    background-color: #004d32;
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+main.form-container p {
+    text-align: center;
+}
+
+main.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+table.experience-table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+table.experience-table th, table.experience-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table.experience-table input {
+    width: 90%;
+}
+
+.required {
+    color: red;
+}
+
+.privacy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.privacy label {
+    margin-left: 10px;
+}
+
+.submit-button {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #e0356b;
+}

@@ -1,10 +1,14 @@
+<head>
+    <link rel="stylesheet" href="/RompeMalla/css/header.css">
+</head>
+
 <header class="main-header">
     <div class="logo-container">
-        <img src="img/LOGO PAWTS.png" alt="Logo Paws" class="logo">
+        <img src="/RompeMalla/img/LOGO PAWTS.png" alt="Logo Paws" class="logo">
     </div>
     <nav class="navigation">
         <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="/RompeMalla/index.php">Inicio</a></li>
             <li><a href="#">PAWTS</a></li>
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Noticias</a></li>
