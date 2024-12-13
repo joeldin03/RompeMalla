@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<header>
-    <nav>
+<header class="main-header">
+    <div class="logo-container">
+        <img src="img/LOGO PAWTS.png" alt="Logo Paws" class="logo">
+    </div>
+    <nav class="navigation">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">PAWTS</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Noticias</a></li>
         </ul>
     </nav>
+    <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
