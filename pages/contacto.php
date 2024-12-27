@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <?php include '../resources/header.php'; ?>
 
     <h1>Únete a Nuestro Equipo</h1>
