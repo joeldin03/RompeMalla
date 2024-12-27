@@ -3,8 +3,8 @@ footer {
     padding: 10px 3%;
     text-align: center;
     color: black;
-    position: relative; /* Mantiene el footer dentro del flujo de la página */
-    bottom: 0; /* Asegura su posición en la parte inferior si es necesario */
+    position: relative; 
+    bottom: 0; 
 }
 
 footer .container {

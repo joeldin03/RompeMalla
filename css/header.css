@@ -15,7 +15,7 @@
 }
 
 .logo {
-    height: 70px; /* Ajusta según el tamaño de tu logo */
+    height: 70px; 
 }
 
 /* Navegación */
@@ -33,7 +33,7 @@
 .navigation a {
     text-decoration: none;
     font-size: 16px;
-    color: #009688; /* Verde similar al de la imagen */
+    color: #009688; 
     font-weight: bold;
 }
 
@@ -41,7 +41,6 @@
     text-decoration: underline;
 }
 
-/* Ícono de menú */
 .menu-icon {
     display: flex;
     flex-direction: column;
