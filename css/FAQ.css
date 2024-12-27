@@ -1,9 +1,13 @@
 body {
-    font: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
     color: #333;
+}
+
+.faq-question, .faq-answer {
+    font-family: 'PT Serif', serif;
 }
 
 main {
@@ -81,18 +85,22 @@ main {
 .contact-help {
     text-align: center;
     margin-top: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 .contact-help p {
     font-size: 14px;
     color: #666;
+    text-align: justify;
 }
 
 .contact-button {
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    background-color: #4caf50;
+    background-color: #FF5F92;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
