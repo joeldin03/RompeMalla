@@ -6,6 +6,7 @@
     <title>FAQ - PAWTS</title>
     <link rel="stylesheet" href="/RompeMalla/css/FAQ.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logo chiquito.png">
 </head>
 <body>
 

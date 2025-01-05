@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="/RompeMalla/css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <footer>
@@ -19,7 +20,7 @@
         </div>
 
         <div class="links">
-            <a href="#">Política de Privacidad</a>
+            <a href="/RompeMalla/pages/privacidad.php">Política de Privacidad</a>
             <a href="#">Sobre Nosotros</a>
             <a href="/RompeMalla/pages/contacto.php">Contáctanos</a>
             <a href="#">Centro de Ayuda</a>

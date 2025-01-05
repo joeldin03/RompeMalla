@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="/RompeMalla/css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
 <header class="main-header">
