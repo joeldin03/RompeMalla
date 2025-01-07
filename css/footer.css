@@ -1,77 +1,92 @@
+/* General footer styles */
 footer {
-    background-color: white;
-    padding: 10px 3%;
-    text-align: center;
-    color: black;
-    position: relative; 
-    bottom: 0; 
     font-family: 'PT Serif', serif;
+    background-color: #fff;
+    color: black;
+    padding: 10px 0; /* Reduce el grosor del footer */
+    position: relative;
+    bottom: 0;
+    text-align: center;
 }
 
 footer .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    max-width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    padding: 0 20px;
+    height: 60px; /* Controla el grosor del footer */
 }
 
 footer .socials {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: left;
-}
-
-footer .socials {
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    text-align: center;
+    flex: 1;
 }
 
 footer .socials a {
-    display: inline-block; 
+    margin-left: 10px; /* Espacio entre los íconos */
 }
 
 footer .socials img {
     width: 40px;
     height: 40px;
-    margin-right: 8px;
-}
-
-footer .brand {
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-footer .brand img {
-    height: 80px; 
-}
-
-footer .brand p {
-    margin: 5px 0;
-    font-size: 1em;
-    font-weight: bold;
 }
 
 footer .links {
     display: flex;
-    flex-wrap: nowrap; 
     justify-content: center;
-    margin-bottom: 5px;
+    align-items: center;
+    flex: 2;
 }
 
 footer .links a {
-    margin: 0 10px; 
-    color: black;
+    margin: 0 15px;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 16px;
+    color: #00A877; 
+    font-weight: bold;
+    
+}
+
+footer .brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+footer .brand img {
+    height: 70px; /* Tamaño del logo */
 }
 
 footer .copyright {
+    font-size: 16px;
+    color: #00A877; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
     color: black;
-    font-size: 20px;
-    text-align: center;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    position: relative;
+    margin-top: auto;
 }

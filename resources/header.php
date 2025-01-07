@@ -12,7 +12,7 @@
             <li><a href="/RompeMalla/index.php">Inicio</a></li>
             <li><a href="#">PAWTS</a></li>
             <li><a href="#">Servicios</a></li>
-            <li><a href="#">Noticias</a></li>
+            <li><a href="/RompeMalla/pages/noticias.php">Noticias</a></li>
         </ul>
     </nav>
     <div class="menu-icon">
