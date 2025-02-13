@@ -4,29 +4,23 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     text-align: center;
+    color: #007A57;
 }
-
 
 .services {
     padding: 20px;
-    margin: 10px;
     border-radius: 10px;
-    background: #007A57
+    background: #007A57;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .services h2 {
     color: white;
-}
-
-.subtitle {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.description {
-    font-size: 1.1em;
-    max-width: 800px;
-    margin: 0 auto 20px;
+    font-style: italic;
+    opacity: 50%;
 }
 
 .highlight {
@@ -59,8 +53,4 @@ body {
     width: 55px;
     height: 50px;
     margin-bottom: 10px;
-}
-
-h3 {
-    color: #007A57;
 }

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="/RompeMalla/css/servicios.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/servicios.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo chiquito.png">
     <title>Pawts - Servicios</title>
@@ -13,9 +13,10 @@
 <body>
     <?php include '../resources/header.php'; ?>
     <h1>Servicios</h1>
-        <h3>Descubre PAWTS: Cuidado y Bienestar para tu Mascota</h3>
+        <h2>Descubre PAWTS: Cuidado y Bienestar para tu Mascota</h2>
         <p>
             <span class="highlight">PAWTS</span> es tu compañero ideal para <span class="highlight">cuidar</span> y <span class="highlight">organizar</span> todo lo relacionado con tu mascota.
+            <br>
             Descubre nuestras funcionalidades y cómo te ayudamos a ser el mejor cuidador para tu amigo animal.
         </p>
     <section class="services">
