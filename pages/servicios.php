@@ -54,6 +54,7 @@
                 <p>Ten siempre a mano un protocolo de acción y contactos en caso de emergencia.</p>
             </div>
         </divc>
+        <h2>¡Y mucho más!</h2>
     </section>
     <?php include '../resources/footer.php'; ?>
 </body>
