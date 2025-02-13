@@ -1,0 +1,63 @@
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #007A57;
+}
+
+.services {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #007A57;
+    background: #007A57
+}
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.highlight {
+    color: #FF5F92;
+    font-weight: bold;
+}
+
+.services-container {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+}
+
+.service p {
+    text-align: left;
+}
+
+.service img {
+    width: 55px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #007A57;
+}

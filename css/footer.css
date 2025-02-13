@@ -1,9 +1,8 @@
-/* General footer styles */
 footer {
     font-family: 'PT Serif', serif;
     background-color: #fff;
     color: black;
-    padding: 10px 0; /* Reduce el grosor del footer */
+    padding: 10px 0; 
     position: relative;
     bottom: 0;
     text-align: center;
@@ -16,7 +15,7 @@ footer .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 60px; /* Controla el grosor del footer */
+    height: 60px; 
 }
 
 footer .socials {
@@ -27,7 +26,7 @@ footer .socials {
 }
 
 footer .socials a {
-    margin-left: 10px; /* Espacio entre los íconos */
+    margin-left: 10px; 
 }
 
 footer .socials img {
@@ -59,7 +58,7 @@ footer .brand {
 }
 
 footer .brand img {
-    height: 70px; /* Tamaño del logo */
+    height: 70px; 
 }
 
 footer .copyright {

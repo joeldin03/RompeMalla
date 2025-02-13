@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/RompeMalla/css/privacidad.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/RompeMalla/css/privacidad.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo chiquito.png">
-    <title>Pawts</title>
+    <title>Pawts - Privacidad</title>
 </head>
 
 <body>
