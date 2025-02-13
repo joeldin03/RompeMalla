@@ -11,7 +11,7 @@
         <ul>
             <li><a href="/RompeMalla/index.php">Inicio</a></li>
             <li><a href="#">PAWTS</a></li>
-            <li><a href="/RompeMalla/servicios.php">Servicios</a></li>
+            <li><a href="/RompeMalla/pages/servicios.php">Servicios</a></li>
             <li><a href="/RompeMalla/pages/noticias.php">Noticias</a></li>
         </ul>
     </nav>
