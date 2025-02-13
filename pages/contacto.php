@@ -4,20 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/RompeMalla/css/contacto.css">
-    <link rel="stylesheet" href="/RompeMalla/css/index.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo chiquito.png">
     <title>PAWTS</title>
 </head>
 
 <body>
-    
+
     <?php include '../resources/header.php'; ?>
 
     <h1>Únete a Nuestro Equipo</h1>
+    <div class="intro-form">
         <p>¿Eres un amante de las mascotas y te apasiona la tecnología? <br> ¡Nos encantaría conocerte!</p>
-        <p>En <span class="highlight">PAWTS</span> estamos creciendo y siempre buscamos personas talentosas para unirse a nuestro equipo. Si quieres formar parte de una empresa innovadora y contribuir al cuidado de los amigos animales, completa el formulario y contáctanos.</p>
+        <p>En <span class="highlight">PAWTS</span> estamos creciendo y siempre buscamos personas talentosas para unirse a nuestro equipo. <br> Si quieres formar parte de una empresa innovadora y contribuir al cuidado de los amigos animales, completa el formulario y contáctanos.</p>
         <p><small>Los campos marcados con un (<span class="required">*</span>) son obligatorios.</small></p>
+    </div>
 
     <main class="form-container">
         <form action="procesar_formulario.php" method="post" enctype="multipart/form-data">
@@ -73,15 +75,15 @@
 
             <label for="comentarios">Comentarios Adicionales:</label>
             <textarea id="comentarios" name="comentarios" rows="4" placeholder="Puedes añadir información adicional aquí."></textarea>
+            <div class="privacy">
+                <input type="checkbox" id="politica" name="politica" required>
+                <label for="politica">He leído y aceptado la política de privacidad de PAWTS.</label>
+            </div>
+
+            <button type="submit" class="submit-button">Enviar Solicitud</button>
+
         </form>
     </main>
-
-    <div class="privacy">
-        <input type="checkbox" id="politica" name="politica" required>
-        <label for="politica">He leído y aceptado la política de privacidad de PAWTS.</label>
-    </div>
-
-    <button type="submit" class="submit-button">Enviar Solicitud</button>
 
     <?php include '../resources/footer.php'; ?>
 
