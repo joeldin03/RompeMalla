@@ -1,35 +1,16 @@
 body {
     font-family: 'PT Serif', serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-h1 {
-    text-align: center;
-    color: #007f6e;
-}
-
-h2 {
-    text-align: center;
-    color: #ff4a92;
-}
-
-a {
-    text-decoration: none;
+    background: linear-gradient(#8BD8C1, #348F6B);
 }
 
 .hero {
     position: relative;
     text-align: center;
-    color: black;
 }
 
-.hero-img {
+.hero img {
     padding: 15px;
-    height: 600px;
-    object-fit: cover;
-
+    height: 500px;
 }
 
 .hero-text {
@@ -42,19 +23,9 @@ a {
     max-width: 600px;
 }
 
-.hero-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.hero-text p {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
 .colaboradores {
     padding: 50px 20px;
-    background-color: #007f6e;
+    text-align: center;
 }
 
 .cards-container {
@@ -67,7 +38,6 @@ a {
 
 .card {
     background: white;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
@@ -102,26 +72,31 @@ a {
 }
 
 .contacto {
-    background: #ff4a92;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
-    color: white;
-    padding: 30px 20px;
 }
 
 .contacto p {
+    background: #ff4a92;    
+    color: white;
+    padding: 20px 20px;
     font-size: 1.2rem;
     margin-bottom: 20px;
+    border-radius: 50px;
+    display: inline-block;
 }
 
 .button {
-    background: white;
-    color: #ff4a92;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    background-color: #FFC3D6;
+    color: #FF5F92;
     padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.button:hover {
-    background: #ffe0ec;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 20px;
 }
