@@ -2,46 +2,29 @@ body {
     font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
     color: #333;
+    background-color: white;
 }
 
-.faq-question, .faq-answer {
-    font-family: 'PT Serif', serif;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
+.faq {
+    margin: 20px;
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background: linear-gradient(#A7FFDF, white);
+    width: 80%;
+    justify-self: center;
 }
 
 .faq h1 {
     font-size: 24px;
-    color: #4caf50;
+    color: #007A57;
     text-align: center;
 }
 
 .faq p {
-    font-size: 16px;
     text-align: center;
-    color: #666;
-}
-
-.search-bar {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.search-bar input {
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    color: black
 }
 
 .faq-list {
@@ -50,32 +33,26 @@ main {
 
 .faq-item {
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
     overflow: hidden;
 }
 
 .faq-question {
+    font-family: 'DM Sans', sans-serif;
+    background-color: transparent;
     width: 100%;
     padding: 15px;
     text-align: left;
-    background-color: #f1f1f1;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    font-weight: bold;
-    color: #4caf50;
     outline: none;
 }
 
-.faq-question:hover {
-    background-color: #e0f7df;
-}
-
 .faq-answer {
+    font-family: 'DM Sans', sans-serif;
     display: none;
     padding: 15px;
-    background-color: #fff;
+    background-color: transparent;
     font-size: 14px;
     color: #555;
     border-top: 1px solid #ddd;
@@ -83,29 +60,28 @@ main {
 
 
 .contact-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    margin-top: 30px;
-    border: 1px solid black;
-    padding: 15px;
-    border-radius: 25px;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .contact-help p {
+    font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     color: #666;
     text-align: justify;
+    margin-right: 50px;
 }
 
 .contact-button {
-    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
     padding: 10px 20px;
-    color: #fff;
+    color: white;
     background-color: #FF5F92;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.contact-button:hover {
-    background-color: #43a047;
 }
