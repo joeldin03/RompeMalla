@@ -3,13 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(#A7FFDF, white);
-    ;
     text-align: center;
 }
 
 h1 {
     color: #007A57;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .container {

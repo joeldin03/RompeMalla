@@ -36,7 +36,7 @@
             <div class="team">
                 <img src="../img/hamstergafa.png" alt="profile pic">                
                 <h3>RUT</h3>
-                <p>DISSEÑADORA</p>
+                <p>DISEÑADORA</p>
             </div>
             <div class="team">
                 <img src="../img/hamstergafa.png" alt="profile pic">
