@@ -4,7 +4,7 @@
 </head>
 
 <footer>
-    <div class="container">
+    <div class="fcontainer">
   
         <div class="brand">
             <img src="/RompeMalla/img/LOGO PAWTS.png" alt="Logo Paws">
