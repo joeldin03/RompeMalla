@@ -2,18 +2,18 @@ body {
     font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background: linear-gradient(white, #A7FFDF);
     text-align: center;
     color: #007A57;
 }
 
 .services {
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     background: #007A57;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: auto;
     margin-bottom: 50px;
 }
 
@@ -29,7 +29,6 @@ body {
 }
 
 .services-container {
-    border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,17 +39,17 @@ body {
 .service {
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 280px;
 }
 
 .service p {
-    text-align: left;
+    text-align: center;
 }
 
 .service img {
-    width: 55px;
-    height: 50px;
+    width: auto;
+    height: auto;
     margin-bottom: 10px;
 }
