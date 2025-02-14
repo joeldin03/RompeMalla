@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php include '../resources/header.php'; ?>
-    <h1>Conoce al equipo:</h1>
+    <h1>¡Conoce al equipo!</h1>
         <div class="container">
             <div class="team">
                 <img src="../img/hamstergafa.png" alt="profile pic">                
@@ -19,22 +19,18 @@
                 <p>FUNDADOR</p>
             </div>
         </div>
+
         <div class="container">
-            <div class="team">
-                <img src="../img/hamstergafa.png" alt="profile pic">                
-                <h3>ALEXANDER</h3>
-                <p>PROGRAMADOR</p>
-            </div>
-            <div class="team">
-                <img src="../img/hamstergafa.png" alt="profile pic">
-                <h3>JONATAN</h3>
-                <p>PROGRAMADOR</p>
-            </div>
-            <div class="team">
-                <img src="../img/hamstergafa.png" alt="profile pic">                
-                <h3>ADRIÁN</h3>
-                <p>ESPECIALISTA EN MARKETING</p>
-            </div>
+                <div class="team">
+                    <img src="../img/hamstergafa.png" alt="profile pic">                
+                    <h3>ALEXANDER</h3>
+                    <p>PROGRAMADOR</p>
+                </div>
+                <div class="team">
+                    <img src="../img/hamstergafa.png" alt="profile pic">
+                    <h3>JONATAN</h3>
+                    <p>PROGRAMADOR</p>
+                </div>
         </div>
         <div class="container">
             <div class="team">
@@ -47,6 +43,13 @@
                 <h3>ANAÏS</h3>
                 <p>DISEÑADORA</p>
             </div>
+        </div>
+        <div class="container">
+                <div class="team">
+                    <img src="../img/hamstergafa.png" alt="profile pic">                
+                    <h3>ADRIÁN</h3>
+                    <p>ESPECIALISTA EN MARKETING</p>
+                </div>
         </div>
     <?php include '../resources/footer.php'; ?>
 </body>
