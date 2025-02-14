@@ -12,7 +12,6 @@
 <body>
     <?php include '../resources/header.php'; ?>
     <h1>Conoce al equipo:</h1>
-    <section class="teams">
         <div class="container">
             <div class="team">
                 <img src="../img/hamstergafa.png" alt="profile pic">                
@@ -31,6 +30,11 @@
                 <h3>JONATAN</h3>
                 <p>PROGRAMADOR</p>
             </div>
+            <div class="team">
+                <img src="../img/hamstergafa.png" alt="profile pic">                
+                <h3>ADRIÁN</h3>
+                <p>ESPECIALISTA EN MARKETING</p>
+            </div>
         </div>
         <div class="container">
             <div class="team">
@@ -44,14 +48,6 @@
                 <p>DISEÑADORA</p>
             </div>
         </div>
-        <div class="container">
-            <div class="team">
-                <img src="../img/hamstergafa.png" alt="profile pic">                
-                <h3>ADRIÁN</h3>
-                <p>ESPECIALISTA EN MARKETING</p>
-            </div>
-        </div>
-    </section>
     <?php include '../resources/footer.php'; ?>
 </body>
 </html>
