@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'PT Serif', serif;
+    background-color: aquamarine;
     color: #333;
 }
 
@@ -18,9 +18,10 @@ h1 {
 }
 
 main.form-container {
-    background-color: #ffffff;
+    background-color: #007A57;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    padding-right: 60px;
     max-width: 800px;
     margin: 30px auto;
     border-radius: 10px;
@@ -38,9 +39,9 @@ main.form-container form {
 }
 
 label {
-    font-weight: bold;
     margin-top: 15px;
     font-size: 1em;
+    color: white;
 }
 
 input, select, textarea {
@@ -66,9 +67,11 @@ textarea {
 
 table.experience-table {
     width: 100%;
+    margin-top: 5px;
     margin-bottom: 15px;
     border-collapse: collapse;
     font-size: 0.9em;
+    background-color: white;
 }
 
 table.experience-table th {
@@ -97,14 +100,23 @@ table.experience-table input {
 }
 
 .privacy {
+    clear: both;
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.privacy input{
+    width: 20px;
+    height: 20px;
 }
 
 .privacy label {
     margin-left: 10px;
     font-size: 0.9em;
+    margin-top: 7.5px;
 }
 
 .submit-button {
@@ -136,4 +148,8 @@ table.experience-table input {
     .submit-button {
         font-size: 1em;
     }
+}
+
+.intro-form{
+    text-align: center;
 }

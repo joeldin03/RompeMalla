@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/logo chiquito.png">
 </head>
+
 <body>
 
     <?php include '../resources/header.php'; ?>
@@ -22,8 +24,10 @@
             <h2>¿SABÍAS QUÉ?</h2>
             <div class="info">
                 <img src="../img/gato.png" alt="Gato curioso">
-                <p>Los gatos tienen más huesos que los humanos: 244 frente a nuestros 206. ¿Y sabías que cada gato tiene un patrón único en su nariz, como nuestras huellas dactilares?</p>
-                <p>Sigue explorando curiosidades en PAWTS y cuida a tus amigos peludos con más conocimiento.</p>
+                <div>
+                    <p>Los gatos tienen más huesos que los humanos: 244 frente a nuestros 206. ¿Y sabías que cada gato tiene un patrón único en su nariz, como nuestras huellas dactilares?</p>
+                    <p>Sigue explorando curiosidades en PAWTS y cuida a tus amigos peludos con más conocimiento.</p>
+                </div>
             </div>
         </section>
 
@@ -67,5 +71,5 @@
 
     <?php include '../resources/footer.php'; ?>
 </body>
-</html>
 
+</html>
