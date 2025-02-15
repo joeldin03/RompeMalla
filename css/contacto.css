@@ -1,8 +1,11 @@
 body {
     margin: 0;
     font-family: 'PT Serif', serif;
-    background-color: aquamarine;
-    color: #333;
+    background: linear-gradient(white, #A7FFDF);
+}
+
+.intro-form{
+    text-align: center;
 }
 
 h1 {
@@ -22,9 +25,9 @@ main.form-container {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
     padding-right: 60px;
-    max-width: 800px;
+    width: 80%;
     margin: 30px auto;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 main.form-container p {
@@ -50,7 +53,7 @@ input, select, textarea {
     margin-top: 5px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 1em;
     background-color: #fdfdfd;
 }
@@ -63,6 +66,7 @@ input:focus, select:focus, textarea:focus {
 
 textarea {
     resize: none;
+    font-family: 'PT Serif', serif;
 }
 
 table.experience-table {
@@ -72,17 +76,16 @@ table.experience-table {
     border-collapse: collapse;
     font-size: 0.9em;
     background-color: white;
+    border-radius: 25px;
 }
 
 table.experience-table th {
-    background-color: #f0f0f0;
     padding: 10px;
     text-align: left;
     font-weight: bold;
 }
 
 table.experience-table td {
-    border: 1px solid #ccc;
     padding: 8px;
     text-align: left;
 }
@@ -90,13 +93,7 @@ table.experience-table td {
 table.experience-table input {
     width: 90%;
     padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.required {
-    color: red;
-    font-size: 1.2em;
+    border-radius: 15px;
 }
 
 .privacy {
@@ -111,6 +108,7 @@ table.experience-table input {
 .privacy input{
     width: 20px;
     height: 20px;
+    accent-color: #ff4081;
 }
 
 .privacy label {
@@ -131,10 +129,6 @@ table.experience-table input {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.submit-button:hover {
-    background-color: #e0356b;
-    transform: scale(1.05);
-}
 
 @media (max-width: 768px) {
     main.form-container {
@@ -150,6 +144,3 @@ table.experience-table input {
     }
 }
 
-.intro-form{
-    text-align: center;
-}

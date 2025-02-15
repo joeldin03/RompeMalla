@@ -14,25 +14,25 @@
 
     <?php include '../resources/header.php'; ?>
 
-    <h1>Únete a Nuestro Equipo</h1>
+    <h1>¡Únete a Nuestro Equipo!</h1>
     <div class="intro-form">
         <p>¿Eres un amante de las mascotas y te apasiona la tecnología? <br> ¡Nos encantaría conocerte!</p>
         <p>En <span class="highlight">PAWTS</span> estamos creciendo y siempre buscamos personas talentosas para unirse a nuestro equipo. <br> Si quieres formar parte de una empresa innovadora y contribuir al cuidado de los amigos animales, completa el formulario y contáctanos.</p>
-        <p><small>Los campos marcados con un (<span class="required">*</span>) son obligatorios.</small></p>
+        <p><small>Los campos marcados con un (<span class="highlight">*</span>) son obligatorios.</small></p>
     </div>
 
     <main class="form-container">
         <form action="procesar_formulario.php" method="post" enctype="multipart/form-data">
-            <label for="nombre">Nombre Completo: <span class="required">*</span></label>
+            <label for="nombre">Nombre Completo: <span class="highlight">*</span></label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos." required>
 
-            <label for="correo">Correo Electrónico: <span class="required">*</span></label>
+            <label for="correo">Correo Electrónico: <span class="highlight">*</span></label>
             <input type="email" id="correo" name="correo" placeholder="Recibe nuestras ofertas de empleo y actualizaciones." required>
 
-            <label for="telefono">Número de Teléfono: <span class="required">*</span></label>
+            <label for="telefono">Número de Teléfono: <span class="highlight">*</span></label>
             <input type="tel" id="telefono" name="telefono" placeholder="¡Te vamos a contactar!" required>
 
-            <label for="puesto">Puesto de trabajo: <span class="required">*</span></label>
+            <label for="puesto">Puesto de trabajo: <span class="highlight">*</span></label>
             <select id="puesto" name="puesto" required>
                 <option value="" disabled selected>Posición a la que aplicas.</option>
                 <option value="developer">Desarrollador</option>
@@ -41,7 +41,7 @@
                 <option value="otros">Otros</option>
             </select>
 
-            <label for="cv">Curriculum Vitae (CV) y/o portfolio: <span class="required">*</span></label>
+            <label for="cv">Curriculum Vitae (CV) y/o portfolio: <span class="highlight">*</span></label>
             <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx, .jpg, .png" required>
 
             <label for="carta">Carta de Presentación:</label>
@@ -81,7 +81,6 @@
             </div>
 
             <button type="submit" class="submit-button">Enviar Solicitud</button>
-
         </form>
     </main>
 
