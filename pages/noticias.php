@@ -15,9 +15,12 @@
     <?php include '../resources/header.php'; ?>
     <main>
         <section class="intro">
-            <p>Gracias por confiar en PAWTS para cuidar a tus mascotas.</p>
-            <p>Este proyecto nació del amor por los animales y el deseo de simplificar su cuidado. Cada vez que compartes una opinión o una idea, ¡nos ayudas a mejorar!</p>
-            <p>Estamos emocionados por todo lo que está por venir y felices de contar contigo en esta aventura.</p>
+            <img src="../img/gallinas.png" alt="">
+            <div class="intro-text">
+                <p>Gracias por confiar en PAWTS para cuidar a tus mascotas.</p>
+                <p>Este proyecto nació del amor por los animales y el deseo de simplificar su cuidado. Cada vez que compartes una opinión o una idea, ¡nos ayudas a mejorar!</p>
+                <p>Estamos emocionados por todo lo que está por venir y felices de contar contigo en esta aventura.</p>
+            </div>
         </section>
 
         <section class="sabias-que">
@@ -50,17 +53,17 @@
         <section class="noticias">
             <h2>NOTICIAS INTERESANTES</h2>
             <div class="noticia-list">
-                <article>
+                <article class="article-left">
                     <img src="../img/zorro.png" alt="zorro">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
                 </article>
-                <article>
-                    <img src="../img/zorro.png" alt="zorro">
+                <article class="article-right">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
+                    <img src="../img/zorro.png" alt="zorro">
                 </article>
-                <article>
+                <article class="article-left">
                     <img src="../img/zorro.png" alt="zorro">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
