@@ -16,7 +16,7 @@
 
     <main>
         <h1>POLÍTICA DE PRIVACIDAD</h1>
-        <p>PAWTS valora la privacidad y la seguridad de sus usuarios.</p>
+        <p><span style="color: #ff4081">PAWTS</span> valora la privacidad y la seguridad de sus usuarios.</p>
         <p>Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos la información personal que compartes con nosotros a través de nuestra aplicación y página web, cumpliendo con el Reglamento General de Protección de Datos (GDPR) y utilizando tecnología de SSL para proteger tus datos.</p>
         
         <h2>INFORMACIÓN QUE RECOPILAMOS</h2>
