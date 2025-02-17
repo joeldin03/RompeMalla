@@ -126,6 +126,16 @@ body {
     padding: 30px;
 }
 
+.incluyen-container hr {
+    border: none;
+    border-top: 10px solid;
+    width: calc(100% - 640px);
+    position: absolute;
+    z-index: -1;
+    left: 320px;
+    border-color: #33C096;
+}
+
 .incluyen {
     background-color: #007A57;
     color: white;
@@ -150,6 +160,7 @@ body {
 .funciones-container {
     display: flex;
     align-items: flex-end;
+
 }
 
 .funcion {
@@ -188,6 +199,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 25px;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -200,13 +212,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+.beneficio p {
+    text-align: left;
+}
+
 
 .info-beneficio {
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: center;
+    padding: 20px;
+    width: 40%;
 }
 
 .ampliar-perfiles {
@@ -222,3 +242,4 @@ body {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
