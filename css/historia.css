@@ -25,6 +25,10 @@ body {
     
 }
 
+.hero-text{
+    width: 60%;
+}
+
 .hero p {
     margin-right: 20%;
     margin-left: 20%;
@@ -51,7 +55,7 @@ body {
     padding: 50px;
 }
 
-.unete-container button {
+.unete-container a {
     text-align: center;
     justify-content: center;
     display: inline-block;
