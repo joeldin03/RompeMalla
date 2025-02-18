@@ -1,0 +1,72 @@
+body {
+    font-family: 'PT Serif', serif;
+    background: linear-gradient(#005F44, #00B884);
+    color: white;
+}
+
+.highlight {
+    color: #FF5F92;
+}
+
+.hero {
+    background: url('../img/NUBE.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 50px;
+    height: 450px;
+    
+}
+
+.hero p {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.mv-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 50px;
+}
+
+.unete-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 50px;
+}
+
+.unete-container button {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    color: #FF5F92;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.unete {
+    display: flex;
+}
