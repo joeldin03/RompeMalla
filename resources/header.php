@@ -9,10 +9,10 @@
     </div>
     <nav class="navigation">
         <ul>
-            <li><a href="../index.php">Inicio</a></li>
-            <li><a href="../pages/equipo.php">PAWTS</a></li>
-            <li><a href="../pages/servicios.php">Servicios</a></li>
-            <li><a href="../pages/noticias.php">Noticias</a></li>
+            <li><a href="/RompeMalla/index.php">Inicio</a></li>
+            <li><a href="/RompeMalla/pages/equipo.php">PAWTS</a></li>
+            <li><a href="/RompeMalla/pages/servicios.php">Servicios</a></li>
+            <li><a href="/RompeMalla/pages/noticias.php">Noticias</a></li>
         </ul>
     </nav>
     <div class="menu-icon">
