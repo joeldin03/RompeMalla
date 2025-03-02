@@ -36,8 +36,9 @@ main {
 
 .sabias-que {
     text-align: center;
-    background: #22f391;
+    background: #1f8064;
     padding: 40px 20px;
+    background: linear-gradient(to right, #1f8064, #36a483);
 }
 
 .sabias-que h2 {
@@ -51,6 +52,15 @@ main {
     justify-content: center;
     gap: 20px;
     font-size: 32px;
+}
+
+.cat_text{ 
+    background: #4aa288;
+    border-radius: 50%;
+    padding: 100px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow:  0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .sabias-que img {

@@ -27,9 +27,11 @@
             <h2>¿SABÍAS QUÉ?</h2>
             <div class="info">
                 <img src="/RompeMalla/img/gato.png" alt="Gato curioso">
-                <div>
+                <div class="cat_text">
+                    <br><br>
                     <p>Los gatos tienen más huesos que los humanos: 244 frente a nuestros 206. ¿Y sabías que cada gato tiene un patrón único en su nariz, como nuestras huellas dactilares?</p>
-                    <p>Sigue explorando curiosidades en PAWTS y cuida a tus amigos peludos con más conocimiento.</p>
+                    <p>Sigue explorando curiosidades en <span style="color: #FF5F92">PAWTS</span> y cuida a tus amigos peludos con más conocimiento.</p>
+                    <br><br>
                 </div>
             </div>
         </section>
