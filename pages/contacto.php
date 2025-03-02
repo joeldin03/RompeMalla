@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="/RompeMalla/css/contacto.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
     <title>PAWTS</title>
 </head>
 
 <body>
 
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
 
     <h1>¡Únete a Nuestro Equipo!</h1>
     <div class="intro-form">
@@ -84,7 +84,7 @@
         </form>
     </main>
 
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 
 </body>
 

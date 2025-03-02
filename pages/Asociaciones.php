@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="/RompeMalla/css/Asociaciones.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
 
 </head>
 <body>
 
-<?php include '../resources/header.php'; ?>
+<?php include '/RompeMalla/resources/header.php'; ?>
 
     <div class="hero">
-        <img src="../img/vacas.png" alt="Fondo vaca">
+        <img src="/RompeMalla/img/vacas.png" alt="Fondo vaca">
         <div class="hero-text">
             <h1 style="color: #007f6e">Nuestras Asociaciones y Colaboraciones</h1>
             <br>
@@ -33,7 +33,7 @@
             for ($i = 0; $i < 9; $i++) {
                 echo '
                 <div class="card">
-                    <img src="../img/erizo.png" alt="erizo" class="card-img">
+                    <img src="/RompeMalla/img/erizo.png" alt="erizo" class="card-img">
                     <div class="card-content">
                         <h3>Alimentos</h3>
                         <p>La mejor atención veterinaria para tu mascota.</p>
@@ -51,6 +51,6 @@
     </div>
     <a href="mailto:soporte@pawts.com" class="button">Contáctanos</a>
 
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 </body>
 </html>

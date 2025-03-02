@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/servicios.css">
+    <link rel="stylesheet" href="/RompeMalla/css/servicios.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
     <title>Pawts - Servicios</title>
 </head>
 <body>
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
     <h1>Servicios</h1>
         <h2>Descubre PAWTS: Cuidado y Bienestar para tu Mascota</h2>
         <p>
@@ -21,41 +21,41 @@
     <section class="services">
         <div class="services-container">
             <div class="service">
-                <img src="../img/perfiles detallados.png" alt="Perfiles Detallados">
+                <img src="/RompeMalla/img/perfiles detallados.png" alt="Perfiles Detallados">
                 <h3>Perfiles Detallados</h3>
                 <p>Información de salud, alimentación e historial médico de tu mascota.</p>
             </div>
             <div class="service">
-                <img src="../img/calendario citas.png" alt="Calendario de Citas">
+                <img src="/RompeMalla/img/calendario citas.png" alt="Calendario de Citas">
                 <h3>Calendario de Citas</h3>
                 <p>Organiza y recibe recordatorios de visitas al veterinario, vacunaciones y otros eventos importantes.</p>
             </div>
             <div class="service">
-                <img src="../img/historial medico.png" alt="Historial Médico">
+                <img src="/RompeMalla/img/historial medico.png" alt="Historial Médico">
                 <h3>Historial Médico</h3>
                 <p>Accede al historial médico completo de tu mascota, con registros de visitas, tratamientos y más.</p>
             </div>
         </div>
         <divc class="services-container" >
         <div class="service">
-                <img src="../img/control economico.png" alt="Control Económico">
+                <img src="/RompeMalla/img/control economico.png" alt="Control Económico">
                 <h3>Control Económico</h3>
                 <p>Lleva un registro claro de todos los gastos de tu mascota en un solo lugar.</p>
                 <p>Desde citas veterinarias hasta alimentos y accesorios, PAWTS te ayuda a controlar tu presupuesto para que no haya sorpresas.</p>
             </div>
             <div class="service">
-                <img src="../img/bloc notas.png" alt="Bloc de Notas">
+                <img src="/RompeMalla/img/bloc notas.png" alt="Bloc de Notas">
                 <h3>Bloc de Notas</h3>
                 <p>Toma notas sobre la salud y comportamiento de tu mascota.</p>
             </div>
             <div class="service">
-                <img src="../img/plan emergencia.png" alt="Plan de Emergencia">
+                <img src="/RompeMalla/img/plan emergencia.png" alt="Plan de Emergencia">
                 <h3>Plan de Emergencia</h3>
                 <p>Ten siempre a mano un protocolo de acción y contactos en caso de emergencia.</p>
             </div>
         </divc>
         <h2>¡Y mucho más!</h2>
     </section>
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 </body>
 </html>

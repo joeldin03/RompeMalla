@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Membresías - PAWTS</title>
-    <link rel="stylesheet" href="../css/membresias.css">
+    <link rel="stylesheet" href="/RompeMalla/css/membresias.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
 </head>
 
 <body>
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
 
     <h1>Tipos de Membresías</h1>
     <h2>Elige el Plan Perfecto para Ti y Tu Mascota</h2>
@@ -133,28 +133,28 @@
     </div>
     <div class="beneficios-container">
         <div class="beneficio">
-            <img src="../img/Star 1.png" alt="estrella de colores">
+            <img src="/RompeMalla/img/Star 1.png" alt="estrella de colores">
             <div class="info-beneficio">
                 <strong>Personalización Total:</strong>
                 <p>Añade exactamente el número de perfiles que necesitas, sin pagar por más funcionalidades si no las requieres.</p>
             </div>
         </div>
         <div class="beneficio">
-            <img src="../img/Star 2.png" alt="estrella de colores">
+            <img src="/RompeMalla/img/Star 2.png" alt="estrella de colores">
             <div class="info-beneficio">
                 <strong>Flexibilidad y Escalabilidad:</strong>
                 <p>Ideal tanto para hogares con múltiples mascotas como para grandes instalaciones como granjas y zoológicos.</p>
             </div>
         </div>
         <div class="beneficio">
-            <img src="../img/Star 3.png" alt="estrella de colores">
+            <img src="/RompeMalla/img/Star 3.png" alt="estrella de colores">
             <div class="info-beneficio">
                 <strong>Económico:</strong>
                 <p>Los packs tienen precios accesibles que se ajustan a cualquier tipo de usuario, desde el cuidador individual hasta organizaciones más grandes</p>
             </div>
         </div>
         <div class="beneficio">
-            <img src="../img/Star 4.png" alt="estrella de colores">
+            <img src="/RompeMalla/img/Star 4.png" alt="estrella de colores">
             <div class="info-beneficio">
                 <strong>Integración Perfecta:</strong>
                 <p>Todos los datos de las mascotas adicionales se sincronizan automáticamente con la nube para garantizar su seguridad</p>
@@ -169,7 +169,7 @@
         </p>
         <p class="highlight">¡Con PAWTS, gestionar múltiples mascotas nunca ha sido tan fácil!</p>
     </div>
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 </body>
 
 </html>

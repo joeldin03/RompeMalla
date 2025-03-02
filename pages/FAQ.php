@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="/RompeMalla/css/FAQ.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
 </head>
 <body>
 
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
 
     <section>
         <div class="faq">
@@ -52,7 +52,7 @@
         </div>
     </section>
 
-<?php include '../resources/footer.php'; ?>
+<?php include '/RompeMalla/resources/footer.php'; ?>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {

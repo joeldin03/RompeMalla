@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias - PAWTS</title>
-    <link rel="stylesheet" href="../css/noticias.css">
+    <link rel="stylesheet" href="/RompeMalla/css/noticias.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
 </head>
 
 <body>
 
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
     <main>
         <section class="intro">
-            <img src="../img/gallinas.png" alt="">
+            <img src="/RompeMalla/img/gallinas.png" alt="">
             <div class="intro-text">
                 <p>Gracias por confiar en PAWTS para cuidar a tus mascotas.</p>
                 <p>Este proyecto nació del amor por los animales y el deseo de simplificar su cuidado. Cada vez que compartes una opinión o una idea, ¡nos ayudas a mejorar!</p>
@@ -26,7 +26,7 @@
         <section class="sabias-que">
             <h2>¿SABÍAS QUÉ?</h2>
             <div class="info">
-                <img src="../img/gato.png" alt="Gato curioso">
+                <img src="/RompeMalla/img/gato.png" alt="Gato curioso">
                 <div>
                     <p>Los gatos tienen más huesos que los humanos: 244 frente a nuestros 206. ¿Y sabías que cada gato tiene un patrón único en su nariz, como nuestras huellas dactilares?</p>
                     <p>Sigue explorando curiosidades en PAWTS y cuida a tus amigos peludos con más conocimiento.</p>
@@ -38,14 +38,14 @@
             <h2>ACTUALIZACIONES PAWTS</h2>
             <div class="cards">
                 <article>
-                    <img src="../img/hamstergafa.png" alt="Hámster con gafas">
+                    <img src="/RompeMalla/img/hamstergafa.png" alt="Hámster con gafas">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
-                    <p>PAWTS es una aplicación diseñada para ayudarte a gestionar la salud y el bienestar de...</p>
+                    <p>PAWTS es una aplicación diseñada para ayudarte a gestionar la salud y el bienestar de/RompeMalla.</p>
                 </article>
                 <article>
-                    <img src="../img/hamstergafa.png" alt="Hámster con gafas">
+                    <img src="/RompeMalla/img/hamstergafa.png" alt="Hámster con gafas">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
-                    <p>PAWTS es una aplicación diseñada para ayudarte a gestionar la salud y el bienestar de...</p>
+                    <p>PAWTS es una aplicación diseñada para ayudarte a gestionar la salud y el bienestar de/RompeMalla.</p>
                 </article>
             </div>
         </section>
@@ -54,17 +54,17 @@
             <h2>NOTICIAS INTERESANTES</h2>
             <div class="noticia-list">
                 <article class="article-left">
-                    <img src="../img/zorro.png" alt="zorro">
+                    <img src="/RompeMalla/img/zorro.png" alt="zorro">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
                 </article>
                 <article class="article-right">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
-                    <img src="../img/zorro.png" alt="zorro">
+                    <img src="/RompeMalla/img/zorro.png" alt="zorro">
                 </article>
                 <article class="article-left">
-                    <img src="../img/zorro.png" alt="zorro">
+                    <img src="/RompeMalla/img/zorro.png" alt="zorro">
                     <h3><a href="#">Pareja encuentra un zorro en peligro de extinción</a></h3>
                     <p>Mini descripción de la noticia, entre una y dos líneas.</p>
                 </article>
@@ -72,7 +72,7 @@
         </section>
     </main>
 
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 </body>
 
 </html>

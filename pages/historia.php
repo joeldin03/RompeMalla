@@ -7,16 +7,16 @@
     <title>Historia - PAWTS</title>
     <link rel="stylesheet" href="/RompeMalla/css/historia.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/logo chiquito.png">
+    <link rel="icon" href="/RompeMalla/img/logo chiquito.png">
 </head>
 
 <body>
-    <?php include '../resources/header.php'; ?>
+    <?php include '/RompeMalla/resources/header.php'; ?>
 
     <div class="hero">
         <div class="hero-text">
             <h1>Nuestra Historia</h1>
-            <img src="../img/huesito rosa.png" style="width: 55px;">
+            <img src="/RompeMalla/img/huesito rosa.png" style="width: 55px;">
             <p><strong> PAWTS nació del <span class="highlight">amor</span> y la <span>pasión</span> que sentimos por nuestras mascotas.</strong></p>
             <p>
                 Todo comenzó con la idea de facilitar la vida de los dueños de mascotas, ofreciéndoles una herramienta que les permitiera
@@ -40,8 +40,8 @@
             una comunidad global de <strong>dueños conscientes y conectados</strong>.
         </p>
         <div>
-            <img src="../img/FLORES 1.png" alt="flores izquierda">
-            <img src="../img/FLORES 2.png" alt="flores derecha">
+            <img src="/RompeMalla/img/FLORES 1.png" alt="flores izquierda">
+            <img src="/RompeMalla/img/FLORES 2.png" alt="flores derecha">
         </div>
     </div>
     <div class="unete-container">
@@ -53,10 +53,10 @@
         </p>
         <div class="unete">
             <a href="contacto.php">Únete al equipo PAWTS</a>
-            <img src="../img/ovillo.png" alt="ovillo rosa">
+            <img src="/RompeMalla/img/ovillo.png" alt="ovillo rosa">
         </div>
     </div>
-    <?php include '../resources/footer.php'; ?>
+    <?php include '/RompeMalla/resources/footer.php'; ?>
 </body>
 
 </html>
