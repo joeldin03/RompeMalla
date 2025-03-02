@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
 
     <h1>Tipos de Membresías</h1>
     <h2>Elige el Plan Perfecto para Ti y Tu Mascota</h2>
@@ -169,7 +169,7 @@
         </p>
         <p class="highlight">¡Con PAWTS, gestionar múltiples mascotas nunca ha sido tan fácil!</p>
     </div>
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
 
     <section>
         <div class="faq">
@@ -52,7 +52,7 @@
         </div>
     </section>
 
-<?php include '/RompeMalla/resources/footer.php'; ?>
+<?php include '../resources/footer.php'; ?>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {

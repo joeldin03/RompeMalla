@@ -12,7 +12,7 @@
 
 <body>
 
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
     <main>
         <section class="intro">
             <img src="/RompeMalla/img/gallinas.png" alt="">
@@ -72,7 +72,7 @@
         </section>
     </main>
 
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 
 </html>

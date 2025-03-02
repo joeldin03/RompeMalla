@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
 
     <main>
         <h1>POLÍTICA DE PRIVACIDAD</h1>
@@ -74,7 +74,7 @@
         <p>Si tienes preguntas sobre nuestra Política de Privacidad, contáctanos en soporte@pawts.com</p>
     </main>
 
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 
 </html>

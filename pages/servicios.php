@@ -10,7 +10,7 @@
     <title>Pawts - Servicios</title>
 </head>
 <body>
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
     <h1>Servicios</h1>
         <h2>Descubre PAWTS: Cuidado y Bienestar para tu Mascota</h2>
         <p>
@@ -56,6 +56,6 @@
         </divc>
         <h2>¡Y mucho más!</h2>
     </section>
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 </html>

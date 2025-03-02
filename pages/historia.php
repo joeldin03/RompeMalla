@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
 
     <div class="hero">
         <div class="hero-text">
@@ -56,7 +56,7 @@
             <img src="/RompeMalla/img/ovillo.png" alt="ovillo rosa">
         </div>
     </div>
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 
 </html>

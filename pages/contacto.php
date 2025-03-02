@@ -12,7 +12,7 @@
 
 <body>
 
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
 
     <h1>¡Únete a Nuestro Equipo!</h1>
     <div class="intro-form">
@@ -84,7 +84,7 @@
         </form>
     </main>
 
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 
 </body>
 

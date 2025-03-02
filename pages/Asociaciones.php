@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<?php include '/RompeMalla/resources/header.php'; ?>
+<?php include '../resources/header.php'; ?>
 
     <div class="hero">
         <img src="/RompeMalla/img/vacas.png" alt="Fondo vaca">
@@ -51,6 +51,6 @@
     </div>
     <a href="mailto:soporte@pawts.com" class="button">Contáctanos</a>
 
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 </html>

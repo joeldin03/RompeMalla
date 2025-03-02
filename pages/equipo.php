@@ -10,7 +10,7 @@
     <title>Pawts - Equipo</title>
 </head>
 <body>
-    <?php include '/RompeMalla/resources/header.php'; ?>
+    <?php include '../resources/header.php'; ?>
     <h1>¡Conoce al equipo!</h1>
         <div class="container">
             <div class="team">
@@ -51,6 +51,6 @@
                     <p>ESPECIALISTA EN MARKETING</p>
                 </div>
         </div>
-    <?php include '/RompeMalla/resources/footer.php'; ?>
+    <?php include '../resources/footer.php'; ?>
 </body>
 </html>
