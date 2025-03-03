@@ -129,7 +129,9 @@
             </div>
         </div>
         <h1>Packs Disponibles</h1>
-        <div class="table-container"></div>
+        <div class="table-container">
+            <img src="../img/tabla packs.png" alt="tabla de precios">
+        </div>
     </div>
     <div class="beneficios-container">
         <div class="beneficio">

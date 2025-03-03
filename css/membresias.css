@@ -189,22 +189,14 @@ body {
 }
 
 .table-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../img/tabla packs.png');
-    height: 621px;
-    width: 944px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 25px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
 .table-container img {
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .beneficio {
