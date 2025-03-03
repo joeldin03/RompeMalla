@@ -44,6 +44,7 @@ main {
 .sabias-que h2 {
     font-size: 80px;
     color: #FFC2D5;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .sabias-que .info {
