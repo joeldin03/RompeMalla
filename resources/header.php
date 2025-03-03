@@ -13,6 +13,7 @@
             <li><a href="/RompeMalla/pages/equipo.php">PAWTS</a></li>
             <li><a href="/RompeMalla/pages/servicios.php">Servicios</a></li>
             <li><a href="/RompeMalla/pages/noticias.php">Noticias</a></li>
+            <li><a href="/RompeMalla/pages/membresias.php">Membresías</a></li>
         </ul>
     </nav>
     <div class="menu-icon">
