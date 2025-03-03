@@ -1,16 +1,48 @@
-
-body {
+main {
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../img/inicio.png') no-repeat center center;
+    background-size: cover;
+}
+
+.download-buttons {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-color: aquamarine;
+    gap: 50px;
 }
 
-main {
-    flex: 1; 
+.google-play {
+    width: 300px; 
+    height: 100px;
+    background-image: url('../img/googleplay.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.app-store {
+    width: 300px; 
+    height: 100px;
+    background-image: url('../img/appstore.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

@@ -12,12 +12,12 @@
 
 <body>
     <?php include 'resources/header.php'; ?>
-
     <main>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main content of the page.</p>
+        <div class="download-buttons">
+            <a class="google-play" href="https://play.google.com/store" target="_blank"></a>
+            <a class="app-store" href="https://www.apple.com/app-store/" target="_blank"></a>
+        </div>
     </main>
-
     <?php include 'resources/footer.php'; ?>
 </body>
 
